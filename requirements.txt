@@ -1,0 +1,5 @@
+# Tools & Environment Requirements
+- Splunk Enterprise (or Splunk Cloud)
+- Sysmon (System Monitor)
+- Windows 11 / Windows Server
+- Microsoft Sysinternals Suite
