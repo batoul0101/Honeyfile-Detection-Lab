@@ -1,0 +1,11 @@
+# Architecture Overview
+
+This diagram illustrates the data flow within the Honeyfile Detection Lab.
+
+**Data Flow Summary:**
+1. **Attacker:** Executes reconnaissance and discovery.
+2. **Endpoint (Windows 11):** Sysmon captures process and file access events.
+3. **Logging:** Windows Event Logs store the local activity.
+4. **Forwarding:** Universal Forwarder sends logs to the SIEM.
+5. **SIEM (Splunk):** Analysis and alerting on suspicious activities.
+6. **SOC Analyst:** Investigates and responds to the alert.
